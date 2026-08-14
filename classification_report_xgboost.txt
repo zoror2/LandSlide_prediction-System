@@ -1,0 +1,16 @@
+Model: XGBoost
+Train time : 0.1001 s
+Predict time: 0.0041 s
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       200
+           1       1.00      1.00      1.00       200
+
+    accuracy                           1.00       400
+   macro avg       1.00      1.00      1.00       400
+weighted avg       1.00      1.00      1.00       400
+
+Confusion matrix:
+[[200   0]
+ [  0 200]]

@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-08-06T17:19:16.689164",
+  "total_runtime_s": 105.33,
+  "dataset": {
+    "path": "/kaggle/input/datasets/rajumavinmar/landslide-dataset/landslide_dataset.csv",
+    "rows": 2000,
+    "columns": 10,
+    "target": "Landslide",
+    "target_distribution": {
+      "1": 1000,
+      "0": 1000
+    }
+  },
+  "best_model": {
+    "name": "Logistic Regression",
+    "accuracy": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "hold_out_results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "train_time_s": 0.0065,
+      "predict_time_s": 0.0018,
+      "cv_accuracy_mean": 1.0,
+      "cv_accuracy_std": 0.0,
+      "cv_precision_mean": 1.0,
+      "cv_precision_std": 0.0,
+      "cv_recall_mean": 1.0,
+      "cv_recall_std": 0.0,
+      "cv_f1_mean": 1.0,
+      "cv_f1_std": 0.0,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "train_time_s": 0.8183,
+      "predict_time_s": 0.0995,
+      "cv_accuracy_mean": 1.0,
+      "cv_accuracy_std": 0.0,
+      "cv_precision_mean": 1.0,
+      "cv_precision_std": 0.0,
+      "cv_recall_mean": 1.0,
+      "cv_recall_std": 0.0,
+      "cv_f1_mean": 1.0,
+      "cv_f1_std": 0.0,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "train_time_s": 0.1001,
+      "predict_time_s": 0.0041,
+      "cv_accuracy_mean": 0.9995,
+      "cv_accuracy_std": 0.001,
+      "cv_precision_mean": 1.0,
+      "cv_precision_std": 0.0,
+      "cv_recall_mean": 0.999,
+      "cv_recall_std": 0.002,
+      "cv_f1_mean": 0.9995,
+      "cv_f1_std": 0.001,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    },
+    {
+      "model": "LightGBM",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "train_time_s": 0.2618,
+      "predict_time_s": 0.0134,
+      "cv_accuracy_mean": 1.0,
+      "cv_accuracy_std": 0.0,
+      "cv_precision_mean": 1.0,
+      "cv_precision_std": 0.0,
+      "cv_recall_mean": 1.0,
+      "cv_recall_std": 0.0,
+      "cv_f1_mean": 1.0,
+      "cv_f1_std": 0.0,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    }
+  ],
+  "cross_validation": [
+    {
+      "model": "Logistic Regression",
+      "cv_accuracy_mean": 1.0,
+      "cv_accuracy_std": 0.0,
+      "cv_precision_mean": 1.0,
+      "cv_precision_std": 0.0,
+      "cv_recall_mean": 1.0,
+      "cv_recall_std": 0.0,
+      "cv_f1_mean": 1.0,
+      "cv_f1_std": 0.0,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    },
+    {
+      "model": "Random Forest",
+      "cv_accuracy_mean": 1.0,
+      "cv_accuracy_std": 0.0,
+      "cv_precision_mean": 1.0,
+      "cv_precision_std": 0.0,
+      "cv_recall_mean": 1.0,
+      "cv_recall_std": 0.0,
+      "cv_f1_mean": 1.0,
+      "cv_f1_std": 0.0,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    },
+    {
+      "model": "XGBoost",
+      "cv_accuracy_mean": 0.9995,
+      "cv_accuracy_std": 0.001,
+      "cv_precision_mean": 1.0,
+      "cv_precision_std": 0.0,
+      "cv_recall_mean": 0.999,
+      "cv_recall_std": 0.002,
+      "cv_f1_mean": 0.9995,
+      "cv_f1_std": 0.001,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    },
+    {
+      "model": "LightGBM",
+      "cv_accuracy_mean": 1.0,
+      "cv_accuracy_std": 0.0,
+      "cv_precision_mean": 1.0,
+      "cv_precision_std": 0.0,
+      "cv_recall_mean": 1.0,
+      "cv_recall_std": 0.0,
+      "cv_f1_mean": 1.0,
+      "cv_f1_std": 0.0,
+      "cv_roc_auc_mean": 1.0,
+      "cv_roc_auc_std": 0.0
+    }
+  ],
+  "output_directories": {
+    "root": "outputs",
+    "models": "outputs/models",
+    "plots": "outputs/plots",
+    "reports": "outputs/reports"
+  }
+}

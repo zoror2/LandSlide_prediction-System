@@ -1,0 +1,27 @@
+============================================================
+DATASET SUMMARY
+============================================================
+Shape              : 2000 rows x 10 columns
+Number of rows     : 2000
+Number of columns  : 10
+
+Missing values per column:
+  Rainfall_mm                   : 0
+  Slope_Angle                   : 0
+  Soil_Saturation               : 0
+  Vegetation_Cover              : 0
+  Earthquake_Activity           : 0
+  Proximity_to_Water            : 0
+  Landslide                     : 0
+  Soil_Type_Gravel              : 0
+  Soil_Type_Sand                : 0
+  Soil_Type_Silt                : 0
+
+Target distribution:
+  Class 1: 1000 (50.0%)
+  Class 0: 1000 (50.0%)
+
+All features       : ['Rainfall_mm', 'Slope_Angle', 'Soil_Saturation', 'Vegetation_Cover', 'Earthquake_Activity', 'Proximity_to_Water', 'Landslide', 'Soil_Type_Gravel', 'Soil_Type_Sand', 'Soil_Type_Silt']
+Numeric features   : ['Rainfall_mm', 'Slope_Angle', 'Soil_Saturation', 'Vegetation_Cover', 'Earthquake_Activity', 'Proximity_to_Water', 'Landslide', 'Soil_Type_Gravel', 'Soil_Type_Sand', 'Soil_Type_Silt']
+Categorical feat.  : []
+============================================================

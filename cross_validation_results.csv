@@ -1,0 +1,5 @@
+model,cv_accuracy_mean,cv_accuracy_std,cv_precision_mean,cv_precision_std,cv_recall_mean,cv_recall_std,cv_f1_mean,cv_f1_std,cv_roc_auc_mean,cv_roc_auc_std
+Logistic Regression,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+Random Forest,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+XGBoost,0.9995,0.001,1.0,0.0,0.999,0.002,0.9995,0.001,1.0,0.0
+LightGBM,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0

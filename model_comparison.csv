@@ -1,0 +1,5 @@
+model,accuracy,precision,recall,f1,roc_auc,train_time_s,predict_time_s,cv_accuracy_mean,cv_accuracy_std,cv_precision_mean,cv_precision_std,cv_recall_mean,cv_recall_std,cv_f1_mean,cv_f1_std,cv_roc_auc_mean,cv_roc_auc_std
+Logistic Regression,1.0,1.0,1.0,1.0,1.0,0.0065,0.0018,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+Random Forest,1.0,1.0,1.0,1.0,1.0,0.8183,0.0995,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+XGBoost,1.0,1.0,1.0,1.0,1.0,0.1001,0.0041,0.9995,0.001,1.0,0.0,0.999,0.002,0.9995,0.001,1.0,0.0
+LightGBM,1.0,1.0,1.0,1.0,1.0,0.2618,0.0134,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
